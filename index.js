@@ -8,6 +8,6 @@ function nowServing() {
     return "There is nobody waiting to be served!";
   } else {
     let currentCustomer = katzDeli.unshift();
-    return `Currently serving ${katzDeli[0]}.`;
+    return `Currently serving ${currentCustomer}.`;
   }
 }
