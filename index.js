@@ -6,10 +6,14 @@ function takeANumber(katzDeliLine, name) {
 }
 
 function nowServing() {
-  let currentCustomer = katzDeli.shift();
+  var currentCustomer = katzDeli.shift();
   if (currentCustomer === undefined) {
     return 'There is nobody waiting to be served!';
   } else {
     return `Currently serving ${currentCustomer}.`;
   }
+}
+
+function currentLine() {
+
 }
